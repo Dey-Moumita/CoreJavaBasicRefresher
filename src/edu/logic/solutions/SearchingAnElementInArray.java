@@ -9,7 +9,7 @@ public class SearchingAnElementInArray {
         int size = scanner.nextInt();
         int arr[] = new int[size];
         boolean flag =false;
-        int pos;
+        //int pos;
         for(int i =0;i<arr.length;i++){
                System.out.println("Enter element : "+(i+1));
                   arr[i]=scanner.nextInt();
@@ -29,3 +29,4 @@ public class SearchingAnElementInArray {
            }
     }
 }
+//The position of the element that is found here will be added later

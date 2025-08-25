@@ -9,7 +9,7 @@ public class SearchingAnElementInArray {
         int size = scanner.nextInt();
         int arr[] = new int[size];
         boolean flag =false;
-        //int pos;
+        int pos =0;
         for(int i =0;i<arr.length;i++){
                System.out.println("Enter element : "+(i+1));
                   arr[i]=scanner.nextInt();
@@ -20,13 +20,14 @@ public class SearchingAnElementInArray {
 
                if(arr[i]==target){
                    flag = true;
+                   pos = i+1;
                }
            }
-           if(flag){
-               System.out.println("Element found");
+           if(flag==true){
+               System.out.println("Element is found at position : "+(pos));
            }else{
-               System.out.println("Element not found");
+               System.out.println("Element does not found");
            }
     }
 }
-//The position of the element that is found here will be added later
+

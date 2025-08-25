@@ -7,8 +7,8 @@ public class FindMaximumElement {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of the array : ");
         int size = scanner.nextInt();
-        int max = 0 ;
-
+        //int max = 0 ;//we'll not take this bcz in the array any element can be also zero & i also initialized that is zero
+        int max =  Integer.MIN_VALUE;//MIN_VALUE is the enum of the integer class
         int arr[] = new int[size];
         //int max = arr[0];//it'll be worked but not always
 

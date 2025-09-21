@@ -3,7 +3,8 @@ package edu.logic.solutions;
 public class PatternDemo {
     public static void main(String[] args) {
 
-//i means rows and j means columns
+//i means rows and j means column
+        System.out.println("Pattern 1");
         for(int i=1;i<=5;i++){
             for(int j=1;j<=5;j++){
                 System.out.print(j+" ");
@@ -13,6 +14,7 @@ public class PatternDemo {
 
         System.out.println("");
 
+        System.out.println("Pattern 2");
         for(int i=1;i<=5;i++){
             for(int j=1;j<=5;j++){
                 System.out.print(i+" ");
@@ -22,7 +24,7 @@ public class PatternDemo {
 
         System.out.println("");
 
-
+        System.out.println("Pattern 3");
         for(int i=1;i<=5;i++){
             for(int j=1;j<=5;j++){
                 System.out.print((j+i)+" ");
@@ -32,7 +34,7 @@ public class PatternDemo {
 
         System.out.println("");
 
-
+        System.out.println("Pattern 4");
         int count =0;
         for(int i=1;i<=5;i++){
             for(int j=1;j<=5;j++){

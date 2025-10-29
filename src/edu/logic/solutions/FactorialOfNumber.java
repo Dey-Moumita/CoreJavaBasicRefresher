@@ -8,8 +8,8 @@ public class FactorialOfNumber {
         System.out.println("Enter a number : ");
         int n = scanner.nextInt();
         int factorial = 1;
-        for(int i=1;i<=n;i++){
-            factorial = factorial * i;
+        for(int i=n;i>=1;i--){//for(int i=1;i<=n;i++)
+             factorial = factorial * i;
         }
         System.out.println("The factorial of the given number : "+factorial);
     }

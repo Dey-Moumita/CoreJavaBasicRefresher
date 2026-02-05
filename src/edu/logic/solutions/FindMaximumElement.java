@@ -17,13 +17,15 @@ public class FindMaximumElement {
             arr[i]= scanner.nextInt();//5//7//8//9
             //0++//1++//2++//3++
         }
+        int index = 0;
         for(int i = 0;i<arr.length;i++){//0<4//1<4//2<4//3<4//4<4-no
             if(arr[i]>max){//arr[0]=5//arr[1]=7>5-yes;//arr[2]=8>7-yes//arr[3]=9>8-yes
                 max=arr[i];//5//now 7//now 8//now 9
                 //0++//1++//2++//3++
+                index = i;
             }
         }
-        System.out.println("The maximum element in the array is : "+max);//9
+        System.out.println("The maximum element in the array is : "+max+" and the index is " +index);//9
     }
 }
 
